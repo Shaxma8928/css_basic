@@ -17,7 +17,7 @@
 		<!-- this is for the website description -->
 		<meta name="keywords"
 			  content="fullstack , well , beanexpert">
-		<!-- this is for seo engine to find the site using keywords -->
+		<!-- this is for seo engine to find the site using keywords
 		<style>
 			@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 			.card {
@@ -45,6 +45,8 @@
 				padding: 10px 30px;
 				background-color: black;
 				color: blanchedalmond;
+				/* text-transform: capitalize; */
+				border-radius: 5px;
 			}
 		
 			/* border properties consists of thickness,style,color */
@@ -53,14 +55,54 @@
 	</head>
 
 	<body>
-		<!-- box model consist of border margin padding  -->
+		<!-- box model consist of border margin padding 
 		
 		<div class="card">
 			<h1 class="title">this the box model heading</h1>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, voluptatum.</p>
 			<button class="btn">View page</button>
 		</div>
-		<!-- <button class="btn">View page</button> -->
+		<button class="btn">View page</button> -->
+	<!-- </body>  -->
+
+	<style>
+		.container{
+			border: 1px groove black;
+			padding:100px;
+			margin: 100px;
+			background-image: url(https://source.unsplash.com/1600x400/?india,monuments);
+			border-radius: 12px;
+		}
+		*{
+			margin: 0px;
+		}
+		.title{
+			text-align: end;
+			color: white;
+			font-weight: bolder;
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		}
+		.para{
+			font-size: 10px;
+			font-style: normal;
+		}
+		.flex{
+			display: flex;
+			justify-content: flex-end;
+		}
+	</style>
+
+	<body>
+		
+		<div class="container">
+			<!-- <img src="https://source.unsplash.com/500x500/?coding,development" alt=""> -->
+			<div class="flex">
+				<div>
+			<h1 class="title">Designed for you</h1>
+			<p class="title para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quae at commodi, laudantium sed culpa!</p>
+</div>
+			</div>			
+		</div>
 	</body>
 
 </html>
