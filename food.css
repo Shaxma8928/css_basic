@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Padauk&display=swap');
+
+.bg{
+	background: rgb(1,1,1);
+background: -moz-linear-gradient(109deg, rgba(1,1,1,1) 0%, rgba(100,90,80,1) 100%);
+background: -webkit-linear-gradient(109deg, rgba(1,1,1,1) 0%, rgba(100,90,80,1) 100%);
+background: linear-gradient(109deg, rgba(1,1,1,1) 0%, rgba(100,90,80,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010101",endColorstr="#645a50",GradientType=1);
+}
+
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+.banner{
+	width:100%;
+	border: 1px groove black;
+	display: flex;
+	justify-content: center;
+	height: 30vh;
+	align-items: center;
+	background-image: url(/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp);
+	background-position: 1700px;
+}
+.title{
+	color: white;
+	font-weight: bolder;
+	font-size: 100px;
+	font-family: 'Abril Fatface', cursive;
+    font-family: 'Padauk', sans-serif;
+
+
+}
+.center{
+	text-align: center;
+	font-size: 50px;
+	margin: 10px;
+
+}
+span{
+	color: blueviolet;
+}
+.inner-container{
+	width:20%;
+	/* border: 2px groove lightgray; */
+	margin-left: 20px;
+}
+.food-img{
+	width: 100%;
+}
+.btn{
+	margin: 20px 10px;
+	background-color:rgb(252, 42, 77);
+	padding: 10px 30px;
+	
+}
+.text-part{
+	font-family: 'Padauk', sans-serif;
+
+}
+.outer-container{
+	display: flex;
+	justify-content: center;
+	
+}
+.anchor-nav-link{
+	text-decoration: none;
+}
+.flex-nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: black;
+	color: azure;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.p-5{
+	display: flex;
+	
+	/* justify-content: end; */
+}
+.anchor-nav-link{
+	font-size: 30px;
+	color: white;
+	margin: 0px 10px;
+}
+
